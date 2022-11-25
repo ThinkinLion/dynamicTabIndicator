@@ -14,6 +14,9 @@
 		C255FB0E292F604F00C46193 /* dynamicTabIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255FB0D292F604F00C46193 /* dynamicTabIndicatorTests.swift */; };
 		C255FB18292F604F00C46193 /* dynamicTabIndicatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255FB17292F604F00C46193 /* dynamicTabIndicatorUITests.swift */; };
 		C255FB1A292F604F00C46193 /* dynamicTabIndicatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255FB19292F604F00C46193 /* dynamicTabIndicatorUITestsLaunchTests.swift */; };
+		C255FB29292F68D400C46193 /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255FB28292F68D400C46193 /* TabModel.swift */; };
+		C255FB2B292F697600C46193 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255FB2A292F697600C46193 /* HomeView.swift */; };
+		C255FB2D292F869300C46193 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255FB2C292F869300C46193 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		C255FB13292F604F00C46193 /* dynamicTabIndicatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dynamicTabIndicatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C255FB17292F604F00C46193 /* dynamicTabIndicatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamicTabIndicatorUITests.swift; sourceTree = "<group>"; };
 		C255FB19292F604F00C46193 /* dynamicTabIndicatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamicTabIndicatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C255FB28292F68D400C46193 /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		C255FB2A292F697600C46193 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C255FB2C292F869300C46193 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		C255FAFB292F604D00C46193 /* dynamicTabIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				C255FB2E292F8A4400C46193 /* Extensions */,
+				C255FB27292F68B700C46193 /* Model */,
+				C255FB26292F68B200C46193 /* View */,
 				C255FAFC292F604D00C46193 /* dynamicTabIndicatorApp.swift */,
 				C255FAFE292F604D00C46193 /* ContentView.swift */,
 				C255FB00292F604F00C46193 /* Assets.xcassets */,
@@ -125,6 +134,30 @@
 				C255FB19292F604F00C46193 /* dynamicTabIndicatorUITestsLaunchTests.swift */,
 			);
 			path = dynamicTabIndicatorUITests;
+			sourceTree = "<group>";
+		};
+		C255FB26292F68B200C46193 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C255FB2A292F697600C46193 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C255FB27292F68B700C46193 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C255FB28292F68D400C46193 /* TabModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C255FB2E292F8A4400C46193 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C255FB2C292F869300C46193 /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C255FB2D292F869300C46193 /* Extensions.swift in Sources */,
+				C255FB29292F68D400C46193 /* TabModel.swift in Sources */,
+				C255FB2B292F697600C46193 /* HomeView.swift in Sources */,
 				C255FAFF292F604D00C46193 /* ContentView.swift in Sources */,
 				C255FAFD292F604D00C46193 /* dynamicTabIndicatorApp.swift in Sources */,
 			);
